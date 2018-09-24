@@ -11,6 +11,17 @@ import java.util.Scanner;
 public class dateDifferenceLab {
 
 	/*
+	 * Here I introduce the main() method. This triggers an instance of the JVM
+	 * and begins the execution of the method dateDifferenceCalculator().
+	 */
+	
+	public static void main (String [] args) {
+		
+		dateDifferenceCalculator();
+		
+	}
+	
+	/*
 	 * I have written the task of my program in a separate method from the
 	 * main() method, which I have defined as dateDifferenceCalculator().
 	 */
@@ -121,15 +132,5 @@ public class dateDifferenceLab {
 		
 	}
 	
-	/*
-	 * Here I introduce the main() method. This triggers an instance of the JVM
-	 * and begins the execution of the method dateDifferenceCalculator().
-	 */
-	
-	public static void main (String [] args) {
-		
-		dateDifferenceCalculator();
-		
-	}
-	
+
 }
